@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+}
+.box h1{
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 77%;
+    right: 110px;
+    font-family: cursive;
+
+}
+.box h2{
+    font-size: 50PX;
+    color: black;
+    position: absolute;
+    top: 70%;
+    right: 170PX;
+    font-family: 'Courier New';
+}
+.box p{
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 85%;
+  right: 120px;
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #0f1111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+nav ul {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 150px;
+    margin-right: 20px;
+    color: white;
+
+    
+}
+nav ul li:hover{
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px;
+    color: red;
+}
+.box button{
+    position: absolute;
+    top: 90%;
+    right: 250px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.box button:hover{
+    background-color: beige;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+}
+
+
+.box1 h1{
+    font-size: 50px ;
+    background-color: black;
+    color: white;
+
+}
+.box h1:hover{
+    
+    font-size:30px;
+    cursor: pointer;
+    padding: 2px;
+    color: rgb(30, 0, 255);
+}
+.box h2:hover{
+    font-size: 40px;
+    cursor: pointer;
+    padding: 2px;
+    color: rgb(43, 0, 255);
+}
+.box p:hover{
+    font-size: 20px;
+    cursor: pointer;
+    padding: 1px;
+    color: brown;
+}
+
+.content{
+    background-color: white;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img1 h1{
+    color:black;
+    font-size: 15px;
+    
+
+
+}
+.content .img1 img{
+    height: 280px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+   
+    
+}
+
+ .img2 h1{
+    color:black;
+    font-size: 15px;
+}
+.content .img2 img{
+    height: 280px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+ .img3 h1{
+
+    color:black;
+    font-size: 15px;
+    
+    
+}
+.content .img3 img{
+    height: 280px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+ .img4 h1{
+
+    color:black;
+    font-size: 15px;
+    
+    
+
+}
+.content .img4 img{
+    height: 280px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom:  60px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+ .img5 h1{
+
+    color:black;
+    font-size: 15px;
+   
+
+}
+.content .img5 img{
+    height: 280px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.content2{
+    background-color: white;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img6 h1{
+    color:black;
+    font-size: 15px;
+
+
+}
+.content2 .img6 img{
+    height: 280px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 140px;
+    border: 1px solid black;
+    border-radius: 5px;
+   
+}
+
+ .img7 h1{
+    color:black;
+    font-size: 15px;
+}
+.content2 .img7 img{
+    height: 280px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 140px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+ .img8 h1{
+
+    color:black;
+    font-size: 15px;
+    
+    
+}
+.content2 .img8 img{
+    height: 280px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 140px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+ .img9 h1{
+
+    color:black;
+    font-size: 15px;
+    
+    
+
+}
+.content2 .img9 img{
+    height: 280px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom:  140px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+ .img10 h1{
+
+    color:black;
+    font-size: 15px;
+   
+
+}
+.content2 .img10 img{
+    height: 280px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 140px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.content3{
+    height:100%;
+    width: 100%;
+    position: absolute;
+   
+    
+     
+}
+.content3 h1{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+.content3 p{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+
+}
+.content3 button{
+    background-color: blue;
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    position:absolute;
+    top: 150px;
+    left: 650px;
+    font-size: 30px;
+    
+}
+.content3 button:hover{
+
+ background-color: beige;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+
+}
+.content3 .page1 img{
+    height: 70%;
+    width: 49%;
+    top: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    margin-right: 5%;
+   
+   
+}
+.content3 .page2 img{
+    height: 70%;
+    width: 49%;
+    top: 30%;
+    margin-left: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    
+}
+.content3 h1:hover{
+    font-size: 40px;
+    cursor: pointer;
+    color: red;
+
+}
+.content4{
+    width: 100%;
+    height: 100%;
+    background-color: #002f11d9;
+    margin-top: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+    
+}
+.content4 .col1 h1{
+    font-size: 30px;
+   
+ 
+    
+}
+.content4 .col1 p{
+    font-size: 20px;
+   
+    
+   
+}
+.content4 .col2 h1{
+    font-size: 30px;
+
+}
+.content4 .col2 p{
+    font-size: 20px;
+}
+.content4 .col3 h1{
+    font-size: 30px;
+}
+.content4 .col3 p{
+    font-size: 20px;
+}
+
+.content4 .col4 h1{
+    font-size: 30px;
+}
+.content4 .col4 p{
+    font-size: 20px;
+}
+.content4 .col5 h1{
+    font-size: 30px;
+
+}
+.content4 .col5 p{
+    font-size: 20px;
+}
